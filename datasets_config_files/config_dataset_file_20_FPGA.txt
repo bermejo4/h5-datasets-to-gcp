@@ -1,0 +1,8 @@
+{
+        "filename": "/Volumes/Tera/AnalisisFinal/WorkingDirectory/datasets_post_generate/20_FPGA_dataset_post.h5",
+        "key": "14141414141414141414141414141414",
+        "first_sample": 0,
+        "number_of_samples": 129,
+        "number_of_profiling_traces": 18000,
+        "number_of_attack_traces": 2000
+    }
