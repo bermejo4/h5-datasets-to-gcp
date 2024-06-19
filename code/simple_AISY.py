@@ -30,7 +30,7 @@ batch_sizes = [400, 200]
 telegram_notification(f"The program has started")
 for i in range(0, max_dataset_num):
     # Leer el contenido del archivo txt
-    with open(config_file_folder+'config_dataset_file_'+str(i)+'_FPGA.txt', 'r') as file:
+    with open(config_file_folder+'/config_dataset_file_'+str(i)+'_FPGA.txt', 'r') as file:
         data = file.read()
 
     # Convertir el contenido leído de string a diccionario
