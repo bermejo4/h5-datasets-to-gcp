@@ -41,7 +41,7 @@ for i in range(0, max_dataset_num):
 
     # AISY SCA configuration
     for nn in nn_types:
-        telegram_notification(f"The program is in dataset number {i} and nn: {nn}")
+        telegram_notification(f"The program is in dataset number {i} and nn: {str(nn.__name__)}")
         for batchsize in batch_sizes:
             for bit in range(0,15):#range of bits 0-16:
                 try:
@@ -57,6 +57,6 @@ for i in range(0, max_dataset_num):
                     aisy.set_neural_network(nn)
                     aisy.run()
                 except Exception as e:
-                    telegram_notification(f"Error in nn: {nn} batch: {batchsize} and bit: {bit}")
+                    telegram_notification(f"Error in nn: {str(nn.__name__)} batch: {batchsize} and bit: {bit}")
 
 telegram_notification(f"The program has finished")
