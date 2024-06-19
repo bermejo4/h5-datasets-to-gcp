@@ -1,5 +1,5 @@
 {
-        "filename": "/Volumes/Tera/AnalisisFinal/WorkingDirectory/datasets_post_generate/156_FPGA_dataset_post.h5",
+        "filename": "/home/jaimebermejotorres/h5-datasets-to-gcp/datasets/156_FPGA_dataset_post.h5",
         "key": "9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c9c",
         "first_sample": 0,
         "number_of_samples": 129,
