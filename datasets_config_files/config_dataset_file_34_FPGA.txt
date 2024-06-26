@@ -1,8 +1,0 @@
-{
-        "filename": "/home/jaimebermejotorres/h5-datasets-to-gcp/datasets/34_FPGA_dataset_post.h5",
-        "key": "22222222222222222222222222222222",
-        "first_sample": 0,
-        "number_of_samples": 129,
-        "number_of_profiling_traces": 18000,
-        "number_of_attack_traces": 2000
-    }
