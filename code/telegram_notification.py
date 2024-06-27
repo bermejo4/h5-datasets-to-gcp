@@ -11,6 +11,7 @@ CHAT_ID = os.getenv("CHAT_ID")
 
 def telegram_notification(MESSAGE):
     # sending notification to Telegram
+    MESSAGE = "GCP says: " + MESSAGE
     response = requests.post(
         f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
         data={'chat_id': CHAT_ID, 'text': MESSAGE}
